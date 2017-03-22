@@ -19,4 +19,6 @@ int main()
         printf("Multiply() normal: %lld\n", multiply(a, b));
         sleep(1);
     }
+
+    return 0;
 }
