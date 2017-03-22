@@ -10,5 +10,4 @@ This doesn't include anything about detours, trampolines or virtual tables.
 gcc main.c -o main
 gcc -Wall -fPIC -shared -o libhook.so libhook.c -ldl
 LD_PRELOAD=./libhook.so ./main
-
 ```
